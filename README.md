@@ -7,8 +7,8 @@ Welcome to the repository for the **Cognixia Training Program** in partnership w
 ## 📌 **Table of Contents**
 - [Overview](#overview)
 - [Tech Stack & Tools](#tech-stack--tools)
+- [Training Structure](#training-structure)
 - [Repository Structure](#repository-structure)
-- [Modules & Curriculum](#training-structure)
 
 ---
 
@@ -18,7 +18,7 @@ This program focuses on industry-standard engineering practices, modern applicat
 
 * **Provider:** Cognixia
 * **Client Partner:** Citi
-* **Focus Areas:** Core Programming, Enterprise Frameworks, API Development, & Best Engineering Practices, AI 
+* **Focus Areas:** Core Programming, Enterprise Frameworks, API Development, Best Engineering Practices, & AI 
 
 ---
 
@@ -34,7 +34,7 @@ This program focuses on industry-standard engineering practices, modern applicat
 
 ---
 
-## 🧑‍💻** Training Structure**
+## 🧑‍💻 **Training Structure**
 
 ```text
 Cognixia-Training/
@@ -42,18 +42,4 @@ Cognixia-Training/
 ├── Day 2/  # Web App Security, JWT, Security Layers
 ├── Day 3/  # Frontend app, React Overview, Integration with backend
 ├── Day 4/  # DevOps Intro, CI/CD and Deployment, DevSecOps
-├── Day 5/  # Project, demo, Q&A
-
----
-
-
-## 📂** Repository Structure **
-
-```text
-Cognixia-Training/
-├── Console version /             # Day 1
-├── REST API Backend Version /    # Day 2
-├── REST API Backend Veesion 2 /  # Day 3
-├── React Frontend Version /      # Day 4
-├── Deployment Version /          # Day 5
-└── README.md # Repository overview
+└── Day 5/  # Project, demo, Q&A
