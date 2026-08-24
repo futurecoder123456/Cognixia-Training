@@ -1,10 +1,10 @@
-# Cognixia Training | Citi Program
+# **Cognixia Training | Citi Program**
 
 Welcome to the repository for the **Cognixia Training Program** in partnership with **Citi**. This repository contains coursework, lab exercises, projects, and reference materials designed to build end-to-end software engineering and enterprise development skills.
 
 ---
 
-## 📌 Table of Contents
+## 📌 **Table of Contents**
 - [Overview](#overview)
 - [Tech Stack & Tools](#tech-stack--tools)
 - [Repository Structure](#repository-structure)
@@ -14,7 +14,7 @@ Welcome to the repository for the **Cognixia Training Program** in partnership w
 
 ---
 
-## 🎯 Overview
+## 🎯 **Overview**
 
 This program focuses on industry-standard engineering practices, modern application architecture, clean coding standards, and hands-on technical problem-solving.
 
@@ -24,7 +24,7 @@ This program focuses on industry-standard engineering practices, modern applicat
 
 ---
 
-## 🛠 Tech Stack & Tools
+## 🛠 **Tech Stack & Tools**
 
 | Category | Technologies / Tools |
 | :--- | :--- |
@@ -36,7 +36,7 @@ This program focuses on industry-standard engineering practices, modern applicat
 
 ---
 
-## 📂 Repository Structure
+## 🧑‍💻** Training Structure**
 
 ```text
 Cognixia-Training/
@@ -45,4 +45,17 @@ Cognixia-Training/
 ├── Day 3/  # Frontend app, React Overview, Integration with backend
 ├── Day 4/  # DevOps Intro, CI/CD and Deployment, DevSecOps
 ├── Day 5/  # Project, demo, Q&A
+
+---
+
+
+## 📂 **Repository Structure**
+
+```text
+Cognixia-Training/
+├── Console version /             # Day 1
+├── REST API Backend Version /    # Day 2
+├── REST API Backend Veesion 2 /  # Day 3
+├── React Frontend Version /      # Day 4
+├── Deployment Version /          # Day 5
 └── README.md # Repository overview
