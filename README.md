@@ -8,7 +8,7 @@ Welcome to the repository for the **Cognixia Training Program** in partnership w
 - [Overview](#overview)
 - [Tech Stack & Tools](#tech-stack--tools)
 - [Repository Structure](#repository-structure)
-- [Modules & Curriculum](#training--structure)
+- [Modules & Curriculum](#training-structure)
 
 ---
 
@@ -47,7 +47,7 @@ Cognixia-Training/
 ---
 
 
-## 📂 ** Repository Structure **
+## 📂** Repository Structure **
 
 ```text
 Cognixia-Training/
