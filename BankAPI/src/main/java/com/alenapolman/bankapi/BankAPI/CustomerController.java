@@ -32,6 +32,20 @@ public class CustomerController {
         return repository.save(customer);  // Save a new customer to the database.
     }
 
+    @PutMapping("/{id}")
+    public ResponseEntity<Customer> updateCustomer(@PathVariable String id,
+            @RequestBody Customer customer) {
+        return repository.findById(id)
+                .map(existingCustomer -> {
+                    existingCustomer.setName(customer.getName());
+                    existingCustomer.setBalance(customer.getBalance());
+                    existingCustomer.setEmail(customer.getEmail());
+                    existingCustomer.setAccountType(customer.getAccountType());
+                    return ResponseEntity.ok(repository.save(existingCustomer));
+                })
+                .orElse(ResponseEntity.notFound().build());
+    }
+
     @DeleteMapping("/{id}") // Handle DELETE requests to delete a customer by their ID.
     public ResponseEntity<Void> deleteCustomer(@PathVariable String id) {
         repository.deleteById(id);  // Delete the customer with the specified ID from the database.
