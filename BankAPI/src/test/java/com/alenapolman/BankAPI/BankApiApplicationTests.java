@@ -1,4 +1,4 @@
-package com.alenapolman.bankapi.BankAPI;
+package com.alenapolman.BankAPI;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
